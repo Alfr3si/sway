@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+echo -e "Lock \nPoweroff \nReboot \nSuspend 󰤄\nLogout " \
+  | fuzzel --dmenu --prompt="⚡ Power:" \
+  | {
+      read opcion
+      case "$opcion" in
+        "Lock " ) hyprlock ;;
+        "Poweroff ") systemctl poweroff ;;
+        "Reboot ") systemctl reboot ;;
+        "Suspend 󰤄") hyprlock sleep 0.5 
+                     swayidle -w before-sleep '' & 
+                     systemctl suspend ;;
+        "Logout ") kill -9 -1 ;;
+        *) exit ;;
+      esac
+    }
+

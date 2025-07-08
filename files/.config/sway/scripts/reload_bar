@@ -1,0 +1,6 @@
+#!/bin/bash
+#reload configurations of enviroment
+pkill waybar
+waybar &
+pkill swaync
+swaync &

@@ -1,0 +1,298 @@
+.control-center {
+  background: #10222b;
+  border-radius: 20px;
+  border: 0px solid #7babbd;
+  margin: 2px;
+  padding: 4px;
+}
+/* Buttons widget */
+.widget-buttons-grid {
+  font-size: 15px;
+  background: #7babbd;
+  font-family: "JetBrains Mono Nerd Font";
+  padding-left: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #4c566a;
+}
+.widget-buttons-grid > flowbox > flowboxchild > button {
+  padding: 10px;
+  background: #10222b;
+  color: white;
+  border-radius: 20px;
+  margin: 2px;
+  border: 0px solid #04030a;
+}
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+  background: #7babbd;
+  transition: all 0.3s ease-in-out;
+}
+trough {
+  border-radius: 20px;
+  background: #10222b;
+  border: 1px solid #4c566a;
+}
+
+trough highlight {
+  /* ´trough´ is the background of the slider, ´highlight´ is the actual slider */
+  padding-top: 1px;
+  background: #7babbd;
+  border: 1px solid #4c566a;
+  border-radius: 20px;
+}
+trough slider {
+  padding: 1px;
+  background: #7babbd;
+  border: 1px solid #4c566a;
+}
+trough slider:hover {
+  padding: 1px;
+  background: #4c566a;
+}
+
+.widget-volume {
+  color: white;
+  background-color: #4c566a;
+  border-radius: 20px 20px 0px 0px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  border: 0px #4c566a;
+}
+.widget-backlight {
+  color: white;
+  padding-left: 5px;
+  background-color: #4c566a;
+  font-size: 20px;
+  margin-top: -8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 0px 0px 20px 20px;
+  border: 0px #4c566a;
+}
+.widget-title {
+  margin: 8px;
+  font-size: 1.5rem;
+  background: #10222b;
+}
+.widget-title > button {
+  font-size: initial;
+  color: white;
+  text-shadow: none;
+  background: #4c566a;
+  border: #7babbd;
+  box-shadow: none;
+  border-radius: 12px;
+}
+.widget-title > button:hover {
+  background: #7babbd;
+}
+
+/* Mpris widget */
+.widget-mpris {
+  font-family: "JetBrains Mono Nerd Font";
+  /* The parent to all players */
+  border: 0px;
+}
+.widget-mpris-player {
+  padding: 14px;
+  margin: 14px;
+  background-color: #10222b;
+  border-radius: 20px;
+}
+.widget-mpris-album-art {
+  border-radius: 12px;
+}
+.widget-mpris-player button:hover {
+  /* The media player buttons (play, pause, next, etc...) */
+  background: #7babbd;
+}
+.widget-mpris-title {
+  font-family: "JetBrains Mono Nerd Font";
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.widget-mpris-subtitle {
+  font-family: "JetBrains Mono Nerd Font";
+  font-size: 1.1rem;
+}
+.widget-inhibitors {
+  margin: 8px;
+  font-size: 1.5rem;
+}
+.widget-inhibitors > button {
+  font-size: initial;
+  color: white;
+  text-shadow: none;
+  background: #7babbd;
+  border: 1px solid #4c566a;
+  box-shadow: none;
+  border-radius: 12px;
+}
+.widget-inhibitors > button:hover {
+  background: #7babbd;
+}
+.notification-row {
+  outline: none;
+}
+.notification-row:focus,
+.notification-row:hover {
+  background: #7babbd; /* @noti-bg-focus */
+}
+.notification-row .notification-background {
+  padding: 6px 12px;
+}
+.notification-row .notification-background .close-button {
+  /* The notification Close Button */
+  background: #4c566a; /* @noti-close-bg */
+  color: white; /* @text-color */
+  text-shadow: none;
+  padding: 0;
+  border-radius: 100%;
+  margin-top: 5px;
+  margin-right: 5px;
+  box-shadow: none;
+  border: none;
+  min-width: 24px;
+  min-height: 24px;
+}
+.notification-row .notification-background .close-button:hover {
+  background: #7babbd; /* @noti-close-bg-hover */
+  transition: background 0.15s ease-in-out;
+}
+.notification-row .notification-background .notification {
+  /* The actual notification */
+  border-radius: 15px;
+  border: 2px solid #7babbd; /* @border */
+  padding: 0;
+  transition: background 0.15s ease-in-out;
+  background: #4c566a; /* @noti-bg */
+}
+.notification-row .notification-background .notification.low {
+  border-radius: 15px;
+  border: 2px solid #7babbd; /* @border */
+  padding: 0;
+  transition: background 0.15s ease-in-out;
+  background: #4c566a; /* @noti-bg */
+}
+
+.notification-row .notification-background .notification.normal {
+  border-radius: 15px;
+  border: 2px solid #7babbd; /* @border */
+  padding: 0;
+  transition: background 0.15s ease-in-out;
+  background: #4c566a; /* @noti-bg */
+}
+
+.notification-row .notification-background .notification.critical {
+  border-radius: 15px;
+  border: 2px solid #ff6969;
+  padding: 0;
+  transition: background 0.15s ease-in-out;
+  background: #4c566a; /* @noti-bg */
+}
+
+.notification-row .notification-background .notification .notification-action,
+.notification-row
+  .notification-background
+  .notification
+  .notification-default-action {
+  padding: 4px;
+  margin: 0;
+  box-shadow: none;
+  background: transparent;
+  border: none;
+  color: #10222b;
+  transition: background 0.15s ease-in-out;
+}
+.notification-row
+  .notification-background
+  .notification
+  .notification-action:hover,
+.notification-row
+  .notification-background
+  .notification
+  .notification-default-action:hover {
+  background: #7babbd;
+}
+.notification-row
+  .notification-background
+  .notification
+  .notification-default-action {
+  /* The large action that also displays the notification summary and body */
+  border-radius: 12px;
+}
+
+.notification-row
+  .notification-background
+  .notification
+  .notification-default-action:not(:only-child) {
+  /* When alternative actions are visible */
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.notification-row
+  .notification-background
+  .notification
+  .notification-default-action
+  .notification-content {
+  background: transparent;
+  border-radius: 12px;
+  padding: 4px;
+}
+.notification-row
+  .notification-background
+  .notification
+  .notification-default-action
+  .notification-content
+  .image {
+  /* Notification Primary Image */
+  border-radius: 100px;
+  /* Size in px */
+  margin: 4px;
+}
+
+.notification-row
+  .notification-background
+  .notification
+  .notification-default-action
+  .notification-content
+  .app-icon {
+  /* Notification app icon (only visible when the primary image is set) */
+  -gtk-icon-shadow: 0 1px 4px black;
+  margin: 6px;
+}
+.notification-row
+  .notification-background
+  .notification
+  .notification-default-action
+  .notification-content
+  .text-box
+  .summary {
+  /* Notification summary/title */
+  font-size: 16px;
+  font-weight: bold;
+  background: transparent;
+  color: white;
+  text-shadow: none;
+}
+
+.notification-row
+  .notification-background
+  .notification
+  .notification-default-action
+  .notification-content
+  .text-box
+  .time {
+  /* Notification time-ago */
+  font-size: 16px;
+  font-weight: bold;
+  background: transparent;
+  color: white;
+  text-shadow: none;
+  margin-right: 30px;
+}
