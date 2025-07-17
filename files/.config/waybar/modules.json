@@ -16,7 +16,7 @@
   },
 
   "network": {
-    "format-wifi": "    {essid} ({signalStrength}%)",
+    "format-wifi": "   {essid} ({signalStrength}%)",
     "format-ethernet": "󰈀 {ifname}",
     "format-linked": "󰈀 {ifname} (No IP)",
     "format-disconnected": "󰖪 Disconnected",
@@ -40,7 +40,7 @@
   },
 
   "clock": {
-    "format": "  {:%d-%m  %I:%M %p}",
+    "format": "  {:%d-%m %I:%M %p}",
     "tooltip-format": "<tt>{calendar}</tt>",
     "calendar": {
       "mode": "month",
@@ -70,7 +70,7 @@
       "critical": 15
     },
 
-    "format": "{icon}  {capacity}%",
+    "format": "{icon} {capacity}%",
     "interval": 2,
     "format-charging": " {capacity}%",
     "format-plugged": "{capacity}%  ",
@@ -125,7 +125,7 @@
     "escape": true
   },
   "cpu": {
-    "format": "   {usage}%",
+    "format": "  {usage}%",
     "tooltip": true,
     "interval": 1,
     "on-click-right": "foot -e htop"
@@ -146,7 +146,7 @@
     "on-click-right": "~/.config/waybar/scripts/updates"
   },
   "sway/language": {
-    "format": "   {shortDescription}",
+    "format": "  {shortDescription}",
     "tooltip": false
     }
   }
