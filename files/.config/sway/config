@@ -203,7 +203,6 @@ bindsym $mod+r mode "resize"
 
 #Autostart
     exec waybar
-    exec swaync
     exec autotiling -l 2
     exec nm-applet
     exec swww-daemon
