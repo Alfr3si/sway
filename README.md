@@ -8,17 +8,17 @@
 
 ![Desktop](assets/desktop.png)
 
+# Waybar
+
+#### Bar customized
+
+![bar](assets/bar.png)
+
 # fuzzel
 
 #### Launcher of applications
 
 ![launcher](assets/fuzzel.png)
-
-# waybar and swaync
-
-#### Both have been customized for my personal convenience
-
-![bar](assets/bar.png)
 
 # foot
 

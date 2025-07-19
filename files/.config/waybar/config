@@ -23,7 +23,6 @@
         "temperature",
     	"pulseaudio",
         "battery",
-        "custom/notification",
     	"tray",
     ],
     "include": [

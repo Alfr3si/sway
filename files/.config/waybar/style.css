@@ -20,8 +20,6 @@ window#waybar {
 #custom-pronostic,
 #custom-updates,
 #language,
-#custom-notification,
-#custom-notification.none,
 #network,
 #tray {
   color: #7babbd;
@@ -77,18 +75,6 @@ window#waybar {
 #language {
   border-bottom: 2px solid #a6c7fc;
   color: #a6c7fc;
-}
-#custom-notification,
-#custom-notification.none {
-  color: #ebcb8b;
-  font-size: 15px;
-  border-bottom: 2px solid #ebcb8b;
-}
-#custom-notification.dnd-none,
-#custom-notification.dnd-inhibited-none {
-  font-size: 15px;
-  color: #ebcb8b;
-  border-bottom: 2px solid #ebcb8b;
 }
 #workspaces {
   color: #ffffff;

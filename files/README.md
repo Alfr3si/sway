@@ -4,7 +4,6 @@
 - waybar
 - foot
 - fuzzel
-- swaync
 - kitty
 - pacman-contrib
 - pipewire
