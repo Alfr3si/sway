@@ -24,9 +24,6 @@ set $term kitty
 set $menu fuzzel
 
 
-# Captura de pantalla completa con $mod+Print
-bindsym F12 exec grim ~/Downloads/FullScreenshot_$(date +%Y-%m-%d_%H-%M-%S).png
-
 ### Output configuration
 
 output HDMI-A-1 resolution 1920x1080 position 1920,0
@@ -97,6 +94,9 @@ for_window [app_id="WebCord"] move to workspace number 5
     bindsym $mod+Shift+r reload
     bindsym $mod+Shift+b exec --no-startup-id ~/.config/sway/scripts/reload_bar
     bindsym $mod+Shift+e exec --no-startup-id ~/.config/sway/scripts/powermenu
+    bindsym Print exec --no-startup-id ~/.config/sway/scripts/screenshot
+    bindsym impPt exec --no-startup-id ~/.config/sway/scripts/screenshot
+
     # Exit sway (logs you out of your Wayland session)
 
 # Moving around:
@@ -216,8 +216,6 @@ bindsym $mod+r mode "resize"
     # Special keys to adjust brightness via brightnessctl
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
-    # Special key to take a screenshot with grim
-    bindsym Print exec grim
 #
 
 #Autostart
