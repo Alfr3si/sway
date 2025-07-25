@@ -95,7 +95,6 @@ for_window [app_id="WebCord"] move to workspace number 5
     bindsym $mod+Shift+b exec --no-startup-id ~/.config/sway/scripts/reload_bar
     bindsym $mod+Shift+e exec --no-startup-id ~/.config/sway/scripts/powermenu
     bindsym Print exec --no-startup-id ~/.config/sway/scripts/screenshot
-    bindsym impPt exec --no-startup-id ~/.config/sway/scripts/screenshot
 
     # Exit sway (logs you out of your Wayland session)
 
