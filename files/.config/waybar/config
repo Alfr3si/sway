@@ -1,0 +1,31 @@
+{
+    "height":40,
+    "layer": "top",
+    "position": "top",
+
+    "modules-left": [
+        "sway/workspaces",
+        "sway/mode",
+        "custom/pronostic",
+        "custom/updates",
+    ],
+
+    "modules-center": [
+        "clock",
+    ],
+
+    "modules-right": [
+        "cpu",
+        "memory",
+        "network",
+        "sway/language",
+        "backlight",
+        "temperature",
+    	"pulseaudio",
+        "battery",
+    	"tray",
+    ],
+    "include": [
+    "~/.config/waybar/modules.json"
+    ]
+}
